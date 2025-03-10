@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export function Footer() {
     return (
-      <footer className="bg-gray-500 text-white py-8">
-        <div className="container mx-auto px-6 md:px-12">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+      <footer className="bg-gray-500 text-white py-6 ">
+        <div className=" mx-auto px-6 md:px-12">
+          <div className="flex flex-col md:flex-row justify-between items-center ">
             {/* Logo y Nombre */}
             <div className="text-center md:text-left">
               <h2 className="text-2xl font-bold">Mi Portafolio</h2>

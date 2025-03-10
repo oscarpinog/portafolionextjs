@@ -1,7 +1,12 @@
-import Image from "next/image";
+"use client";
+import { useState } from "react";
+import { Sidebar, Navbar, Footer } from "@/app/components/generales";
 
 export default function Home() {
+
   return (
-    <div>Hola portafolio</div>
+    <div>
+      Pagina de inicio
+    </div>
   );
 }
