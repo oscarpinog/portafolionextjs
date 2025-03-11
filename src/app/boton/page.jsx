@@ -2,8 +2,7 @@
 import { useState } from "react";
 import "../globals.css";
 
-export default function Layout() {
-    const [collapsed, setCollapsed] = useState(false);
+export default function Boton() {
 
     return (
         <div >

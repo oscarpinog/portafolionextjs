@@ -27,20 +27,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="es" className="h-screen ">
-      <body className={`${roboto.variable} ${robotoMono.variable} antialiased w-full fixed`}>
+      <body className={`${roboto.variable} ${robotoMono.variable} antialiased w-full `}>
         {/* Navbar con control de sidebar */}
         <Navbar collapsed={collapsed} setCollapsed={setCollapsed} />
 
         {/* Contenedor principal que crece hasta llenar el espacio disponible */}
         <div className="flex w-full ">
           <Sidebar collapsed={collapsed} />
-          <div className="container-fluid w-full pb-48 mt-6 ml-4">
+          <div className="w-full pb-48 mt-6 ml-4">
             {children}
           </div>
         </div>
 
         {/* Footer siempre al final */}
-        <div className="w-full fixed bottom-0 text-white text-center ">
+        <div className="w-full  bottom-0 text-white text-center ">
           <Footer />
         </div>
       </body>
